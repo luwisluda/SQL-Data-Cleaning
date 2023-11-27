@@ -1,4 +1,7 @@
----CLEARING DATA IN SQL QUIRIES
+---#CLEANING DATA IN SQL QUIRIES for easy clear data/table  information 
+---#Data Query quoted as per group_query_command.
+
+---looking at all data to see what needs changes/clarity.
 SELECT *
 FROM PortfolioProject1..NashvilleHousing
 
