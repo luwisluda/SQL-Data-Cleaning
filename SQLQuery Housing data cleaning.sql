@@ -1,27 +1,3 @@
-	---Nashville Housing table-data top 1000-rows to look at
-SELECT TOP (1000) [UniqueID ]
-      ,[ParcelID]
-      ,[LandUse]
-      ,[PropertyAddress]
-      ,[SaleDate]
-      ,[SalePrice]
-      ,[LegalReference]
-      ,[SoldAsVacant]
-      ,[OwnerName]
-      ,[OwnerAddress]
-      ,[Acreage]
-      ,[TaxDistrict]
-      ,[LandValue]
-      ,[BuildingValue]
-      ,[TotalValue]
-      ,[YearBuilt]
-      ,[Bedrooms]
-      ,[FullBath]
-      ,[HalfBath]
-      ,[SaleDate2]
-  FROM PortfolioProject1.dbo.NashvilleHousing
-
-
 ---CLEARING DATA IN SQL QUIRIES
 SELECT *
 FROM PortfolioProject1..NashvilleHousing
